@@ -231,7 +231,6 @@ nav {
     padding: 1%;
 }
 
-
 /* RODAPÉ */
 footer {
     height: 190px;
@@ -258,7 +257,7 @@ footer {
     color: white;
     font-size: 18px;
     text-align: center;
-    margin-top: 23px;
+    margin-top: 30px;
 }
 
 #rodape-linha {
@@ -279,5 +278,5 @@ footer {
 #conjuntoimagens {
     margin-right: 50px;
     float: right;
-    margin-top: 55px;
+    margin-top: 45px;
 }
