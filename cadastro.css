@@ -1,0 +1,303 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Oswald-medium";
+    src: url(Oswald-Medium.ttf);
+}
+
+body {
+    font-family: 'Montserrat';
+    margin: 0;
+    background-color: #280F74;
+}
+
+/* MENU */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu li {
+    list-style-type: none;
+    font-size: 22px;
+    padding: 15px 30px 15px 30px;
+}
+
+.menu li:hover {
+    background-color: #67559e;
+    border-radius: 15px;
+}
+
+button {
+    background-color: #280F74;
+    border: none;
+}
+
+.menu {
+    color: white;
+    background-color: #280F74;
+}
+
+.menu img {
+    height: 70px;
+    float: left;
+    margin-top: 6px;
+    margin-left: 70px;
+}
+
+#cadastro {
+    font-size: 15px;
+    background-color: #482C9F;
+    border-radius: 10px;
+}
+
+#pirituba {
+    margin-top: 10px;
+    font-size: 42px;
+    padding-left: 30px;
+    display: inline-block;
+    font-family: 'Oswald-medium';
+    margin-bottom: 15px;
+}
+
+.menu ul {
+    float: right;
+    margin-right: 25px;
+}
+
+/* FORMULÁRIO */
+.formulario {
+    background-color: rgba(255, 255, 255, 0.986);
+    width: 475px;
+    height: 600px;
+    border-radius: 60px;
+    text-align: center;
+    margin-left: 130px;
+    display: inline-block;
+}
+
+.formulario h2 {
+    color: #482C9F;
+    font-size: 35px;
+}
+
+.campos {
+    position: relative;
+}
+
+.campos_1 {
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(129, 129, 129);
+    outline: none;
+    color: #482C9F; 
+    font-size: 15px;
+    width: 375px;
+}
+
+.labelInput {
+    position: absolute;
+    left: 50px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.campos_1:focus ~ .labelInput,
+.campos_1:valid ~ .labelInput {
+    font-size: 12px;
+    top: -20px;
+    color: #482C9F;
+}
+
+#submit {
+    padding: 15px 30px 15px 30px;
+    margin-top: 5px;
+    border-radius: 30px;
+    border: #280F74;
+    color: white;
+    background-color: #280F74;
+    font-family: "Montserrat";
+    font-size: 15px;
+}
+
+#submit:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* LOGIN */
+.login {
+    background-color: rgba(255, 255, 255, 0.986);
+    width: 475px;
+    height: 515px;
+    border-radius: 60px;
+    text-align: center;
+    float: right;
+    margin-right: 130px;
+}
+
+.login h2 {
+    color: #482C9F;
+    font-size: 35px;
+}
+
+.login .campos {
+    position: relative;
+}
+
+.login .campos_1 {
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(129, 129, 129);
+    outline: none;
+    color: #482C9F; 
+    font-size: 15px;
+    width: 375px;
+}
+
+.login .labelInput {
+    position: absolute;
+    left: 50px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.login .campos_1:focus ~ .labelInput,
+.login .campos_1:valid ~ .labelInput {
+    font-size: 12px;
+    top: -20px;
+    color: #482C9F;
+}
+
+.login #submit {
+    padding: 15px 30px 15px 30px;
+    margin-top: 5px;
+    border-radius: 30px;
+    border: #280F74;
+    color: white;
+    background-color: #280F74;
+    font-family: "Montserrat";
+    font-size: 15px;
+}
+
+.login #submit:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.login hr {
+    width: 400px;
+    border: 2px dashed;
+    opacity: 0.2;
+}
+
+.login #outras {
+    padding: 15px 30px 15px 30px;
+    margin-top: 5px;
+    border-radius: 30px;
+    border: #280F74;
+    color: white;
+    background-color: #280F74;
+    font-family: "Montserrat";
+    font-size: 15px;
+}
+
+.login #outras:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* RODAPÉ */
+.rodape {
+    width: 100%;
+    height: 205px;
+    background-color: #280F74;
+}
+
+.rodape img{
+   float: left;
+   padding: 1%;
+}
+
+#rodape-frase {
+    font-family: 'Oswald-medium';
+    font-size: 40px;
+    color: white;
+    padding-top: 48px;
+    margin-bottom: 0px;
+    margin-left: 250px;
+}
+
+#rodape-direitos {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#rodape-linha {
+    color: 1.5px solid rgba(255, 255, 255, 0.7);
+    margin-left: 245px;
+    width: 1050px;
+    margin-top: 20px;
+}
+
+#img1 {
+    margin: 0px 0px 0px 0px;
+    float: right;
+    padding: 5px;
+    padding-bottom: 20px;
+}
+
+#conjuntoimagens {
+    margin-right: 50px;
+    margin-top: -50px;
+}/* RODAPÉ */
+footer {
+    height: 190px;
+    background-color: #280F74;
+}
+
+.rodape img{
+   float: left;
+   padding: 1%;
+   height: 160px;
+   width: 160px;
+}
+
+#rodape-frase {
+    font-family: 'Oswald-medium';
+    font-size: 40px;
+    color: white;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    float: left;
+}
+
+#rodape-direitos {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 23px;
+}
+
+#rodape-linha {
+    color: 1.5px solid rgba(255, 255, 255, 0.7);
+    margin-left: 245px;
+    width: 1050px;
+}
+
+#img1 {
+    margin: 0px;
+    float: right;
+    padding: 5px;
+    padding-bottom: 20px;
+    height: 40px; 
+    width: 42px;
+}
+
+#conjuntoimagens {
+    margin-right: 50px;
+    float: right;
+    margin-top: 55px;
+}

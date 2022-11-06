@@ -1,0 +1,255 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Oswald-medium";
+    src: url(Oswald-Medium.ttf);
+}
+
+body {
+    font-family: 'Montserrat';
+    margin: 0;
+}
+
+/* MENU */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu li {
+    list-style-type: none;
+    font-size: 22px;
+    padding: 15px 30px 15px 30px;
+}
+
+.menu li:hover {
+    background-color: #67559e;
+    border-radius: 15px;
+}
+
+button {
+    background-color: #280F74;
+    border: none;
+}
+
+.menu {
+    color: white;
+    background-color: #280F74;
+}
+
+.menu img {
+    height: 70px;
+    float: left;
+    margin-top: 6px;
+    margin-left: 70px;
+}
+
+#cadastro {
+    font-size: 15px;
+    background-color: #482C9F;
+    border-radius: 10px;
+}
+
+#pirituba {
+    margin-top: 10px;
+    font-size: 42px;
+    padding-left: 30px;
+    display: inline-block;
+    font-family: 'Oswald-medium';
+    margin-bottom: 15px;
+}
+
+.menu ul {
+    float: right;
+    margin-right: 25px;
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+}
+
+/* TELA 1 */
+.tela1 {
+    height: 450px;
+    color: white;
+    background-color: #280F74;
+}
+
+h2 {
+    font-family: "Oswald-medium";
+    /* width: 500px; */
+    margin-left: 65px;
+    font-size: 48px;
+    margin-top: 155px;
+    text-align: center;
+    display: inline-block;
+}
+
+.tela1 img {
+    float: right;
+    margin-right: 20px;
+}
+
+ul {
+    list-style: none;
+    margin-left: 45px;
+}
+
+/* EDIÇÃO PADRÃO */
+.texto {
+    font-family: "Oswald-medium";
+    font-size: 50px;
+    text-align: center;
+    color: #482C9F;
+    width: 100%;
+    margin: 40px 0px 0px 0px;
+}
+
+h3 {
+    color: #482C9F;
+    font-size: 25px;
+}
+
+/* FARMÁRCIAS */
+.farmaciass {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#farmaciaX {
+    background-color: rgb(230, 230, 230);
+    width: 250px;
+    height: 350px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 30px;
+}
+
+/* MERCADOS */
+.mercadoss {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#mercadoX {
+    background-color: rgb(230, 230, 230);
+    width: 250px;
+    height: 350px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 30px;
+}
+
+/* HOSPITAIS */
+.hospitaiss {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#hospitalX {
+    background-color: rgb(230, 230, 230);
+    width: 250px;
+    height: 350px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 30px;
+}
+
+/* RESTAURANTES */
+.restaurantess {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#restauranteX {
+    background-color: rgb(230, 230, 230);
+    width: 250px;
+    height: 350px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 30px;
+}
+
+/* PADARIAS */
+.padariass {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#padariaX {
+    background-color: rgb(230, 230, 230);
+    width: 250px;
+    height: 350px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 30px;
+}
+
+/* RODAPÉ */
+footer {
+    height: 190px;
+    background-color: #280F74;
+}
+
+.rodape img{
+   float: left;
+   padding: 1%;
+   height: 160px;
+   width: 160px;
+}
+
+#rodape-frase {
+    font-family: 'Oswald-medium';
+    font-size: 40px;
+    color: white;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    float: left;
+}
+
+#rodape-direitos {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 23px;
+}
+
+#rodape-linha {
+    color: 1.5px solid rgba(255, 255, 255, 0.7);
+    margin-left: 245px;
+    width: 1050px;
+}
+
+#img1 {
+    margin: 0px;
+    float: right;
+    padding: 5px;
+    padding-bottom: 20px;
+    height: 40px; 
+    width: 42px;
+}
+
+#conjuntoimagens {
+    margin-right: 50px;
+    float: right;
+    margin-top: 55px;
+}

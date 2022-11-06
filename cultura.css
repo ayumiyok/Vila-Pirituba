@@ -1,0 +1,311 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Oswald-medium";
+    src: url(Oswald-Medium.ttf);
+}
+
+body {
+    font-family: 'Montserrat';
+    margin: 0;
+}
+
+/* MENU */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu li {
+    list-style-type: none;
+    font-size: 22px;
+    padding: 15px 30px 15px 30px;
+}
+
+.menu li:hover {
+    background-color: #67559e;
+    border-radius: 15px;
+}
+
+button {
+    background-color: #280F74;
+    border: none;
+}
+
+.menu {
+    color: white;
+    background-color: #280F74;
+}
+
+.menu img {
+    height: 70px;
+    float: left;
+    margin-top: 6px;
+    margin-left: 70px;
+}
+
+#cadastro {
+    font-size: 15px;
+    background-color: #482C9F;
+    border-radius: 10px;
+}
+
+#pirituba {
+    margin-top: 10px;
+    font-size: 42px;
+    padding-left: 30px;
+    display: inline-block;
+    font-family: 'Oswald-medium';
+    margin-bottom: 15px;
+}
+
+.menu ul {
+    float: right;
+    margin-right: 25px;
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+}
+
+/* TELA 1 */
+.tela1 {
+    color: white;
+    font-size: 30px;
+    font-family: "Oswald-medium";
+    width: 100%;
+    background-color: #280F74;
+    height: 175px;
+    display: inline-block;
+    text-align: center;
+}
+
+/* EDIÇÃO PADRÃO */
+h2 {
+    text-align: center;
+    color: #482C9F;
+    font-size: 40px;
+}
+
+#texto::first-line {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.808);
+}
+
+#endereco {
+    margin-left: 20px;
+    text-align: center;
+}
+
+#textodebaixo {
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;    
+}
+
+/* TELA 2 */
+.tela2 {
+    height: 680px;
+    width: 100%;
+}
+
+.tela2 #texto {
+    text-align: center;
+    padding-left: 630px;
+    padding-right: 90px;
+}
+
+.tela2 img {
+    float: left;
+    margin-left: 40px;
+}
+
+/* TELA 3 */
+.tela3 {
+    height: 540px;
+    width: 100%;
+}
+
+.tela3 #texto {
+    text-align: center;
+    padding-left: 90px;
+    padding-right: 650px;
+}
+
+.tela3 img {
+    float: right;
+    margin-right: 40px;
+}
+
+/* TELA 4 */
+.tela4 {
+    height: 490px;
+    width: 100%;
+}
+
+.tela4 #texto {
+    text-align: center;
+    padding-left: 630px;
+    padding-right: 90px;
+    padding-top: 20px;
+}
+
+.tela4 img {
+    float: left;
+    margin-left: 40px;
+}
+
+.tela4 #endereco {
+    margin-left: 40px;
+    text-align: center;
+    padding-left: 630px;
+    padding-right: 90px;
+}
+
+/* TELA 5 */
+.tela5 {
+    height: 620px;
+    width: 100%;
+}
+
+.tela5 #texto {
+    text-align: center;
+    padding-left: 90px;
+    padding-right: 650px;
+}
+
+.tela5 img {
+    float: right;
+    margin-right: 40px;
+}
+
+/* TELA 6 */
+.tela6 {
+    height: 630px;
+    width: 100%;
+}
+
+.tela6 #texto {
+    text-align: center;
+    padding-left: 630px;
+    padding-right: 90px;
+    padding-top: 10px;
+}
+
+.tela6 img {
+    float: left;
+    margin-left: 40px;
+}
+
+.tela6 #textodebaixo {
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 20px;
+}
+
+/* TELA 7 */
+.tela7 {
+    height: 830px;
+    width: 100%;
+}
+
+.tela7 #texto {
+    text-align: center;
+    padding-left: 90px;
+    padding-right: 650px;
+}
+
+.tela7 img {
+    float: right;
+    margin-right: 40px;
+}
+
+/* TELA 8 */
+.tela8 {
+    height: 810px;
+    width: 100%;
+}
+
+.tela8 #texto {
+    text-align: center;
+    padding-left: 630px;
+    padding-right: 90px;
+}
+
+.tela8 img {
+    float: left;
+    margin-left: 40px;
+}
+
+/* TELA 9 */
+.tela9 {
+    height: 740px;
+    width: 100%;
+}
+
+.tela9 #texto {
+    text-align: center;
+    padding-left: 90px;
+    padding-right: 650px;
+}
+
+.tela9 img {
+    float: right;
+    margin-right: 40px;
+}
+
+/* RODAPÉ */
+footer {
+    height: 190px;
+    background-color: #280F74;
+}
+
+.rodape img{
+   float: left;
+   padding: 1%;
+   height: 160px;
+   width: 160px;
+}
+
+#rodape-frase {
+    font-family: 'Oswald-medium';
+    font-size: 40px;
+    color: white;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    float: left;
+}
+
+#rodape-direitos {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 23px;
+}
+
+#rodape-linha {
+    color: 1.5px solid rgba(255, 255, 255, 0.7);
+    margin-left: 245px;
+    width: 1050px;
+}
+
+#img1 {
+    margin: 0px;
+    float: right;
+    padding: 5px;
+    padding-bottom: 20px;
+    height: 40px; 
+    width: 42px;
+}
+
+#conjuntoimagens {
+    margin-right: 50px;
+    float: right;
+    margin-top: 55px;
+}

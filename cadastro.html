@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+<!-- MENU -->
+    <nav>
+        <div class="menu">
+            <img id="logo" src="Imagens/Logo.png" alt="Logo">
+            <p id="pirituba">PIRITUBA</p>
+            <ul class="nav">
+                <button><li><a href="paginainicial.html">INÍCIO</a></li></button>
+                <button><li><a href="educacao.html">EDUCAÇÃO</a></li></button>
+                <button><li><a href="culturaeturismo.html">LAZER</a></li></button>
+                <button><li><a href="comercio.html">COMÉRCIO</a></li></button>
+                <button><li id="cadastro"><a href="cadastro.html">LOGIN</a></li></button>
+            </ul>
+        </div>
+    </nav>
+
+<!-- FORMULÁRIO -->
+    <div class="formulario">
+        <h2><strong>CADASTRE-SE</strong></h2>
+        <form>
+            <div class="campos">
+                <input type="email" name="email" id="email" class="campos_1" required>
+                <label for="email" class="labelInput">E-mail</label>
+            </div>
+            <br>
+            <br>
+            <div class="campos">
+                <input type="text" name="nome" id="nome" class="campos_1" required>
+                <label for="nome" class="labelInput">Nome</label>
+            </div>
+            <br>
+            <br>
+            <div class="campos">
+                <input type="text" name="sobrenome" id="sobrenome" class="campos_1" required>
+                <label for="sobrenome" class="labelInput">Sobrenome</label>
+            </div>
+            <br>
+            <br>
+            <div class="campos">
+                <input type="tel" name="telefone" id="telefone" class="campos_1" required>
+                <label for="telefone" class="labelInput">Telefone</label>
+            </div>
+            <br>
+            <div class="campos">
+                <p>Sexo:</p>
+                <input type="radio" id="feminino" name="genero" value="feminino" required>
+                <label for="feminino">Feminino</label>
+                <input type="radio" id="masculino" name="genero" value="masculino" required>
+                <label for="masculino">Masculino</label>
+                <input type="radio" id="outro" name="genero" value="outro" required>
+                <label for="outro">Outro</label>
+            </div>
+            <br>
+            <br>
+            <div class="campos">
+                <input type="date" name="data_nascimento" id="data_nascimento" required>
+                <label for="data_nascimento">Data de Nascimento</label>
+            </div>
+            <br>
+            <br>
+            <div class="campos">  
+                <input type="password" name="senha" id="senha" class="campos_1" required>
+                <label for="senha" class="labelInput">Senha</label>
+            </div>
+            <br>
+            <input type="submit" name="submit" id="submit">
+        </form>
+    </div>
+
+<!-- LOGIN -->
+    <div class="login">
+        <h2><strong>LOGIN</strong></h2>
+        <form action="">
+            <div class="campos">
+                <input type="email" name="email" id="email" class="campos_1" required>
+                <label for="email" class="labelInput">E-mail</label>
+            </div>
+            <br>
+            <br>
+            <div class="campos">  
+                <input type="password" name="senha" id="senha" class="campos_1" required>
+                <label for="senha" class="labelInput">Senha</label>
+            </div>
+            <br>
+            <input type="submit" name="submit" id="submit">
+            <br>
+            <br>
+            <hr>
+            <p>ou</p>
+            <input type="button" value="Cadastre-se com o Facebook" id="outras">
+            <br>
+            <br>
+            <br>
+            <input type="button" value="Cadastre-se com o G-mail" id="outras">
+        </form>
+    </div>
+
+<!-- RODAPÉ -->
+    <footer>
+        <div class="rodape">
+            <img src="Imagens/Logo.png" alt="logo">
+            <p id="rodape-frase">PIRITUBA, O BAIRRO PARA SUA FAMÍLIA</p>
+            <div id="conjuntoimagens">
+                <img src="Imagens/Facebook.png" id="img1">
+                <img src="Imagens/Instagram.png" id="img1">
+                <img src="Imagens/Twitter.png" id="img1">
+                <img src="Imagens/Linkedin.png" id="img1">
+                <img src="Imagens/TikTok.png" id="img1">
+                <img src="Imagens/YouTube.png" id="img1">
+            </div>
+            <hr id="rodape-linha">
+            <p id="rodape-direitos">Copyright © 2012 Pirituba. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
